@@ -6,7 +6,6 @@
 /pharo-vm/
 /pillar
 /pillar-documentation.html
-*.md
 /README.html
 *.aux
 *.log
