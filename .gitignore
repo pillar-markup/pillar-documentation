@@ -6,7 +6,7 @@
 /pharo-vm/
 /pillar
 /pillar-documentation.html
-/pillar-documentation.std.md
+*.md
 /README.html
 *.aux
 *.log
@@ -17,3 +17,4 @@ auto/
 *.synctex.gz
 *.toc
 /README.tex
+/_book/

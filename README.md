@@ -290,12 +290,7 @@ An annotated paragraph starts a line with `@@` followed by either `todo` or `not
 
 generates
 
-&nbsp;
-
-
-    Note: this is a note annotation.
-
-
+&nbsp;<p class="note">this is a note annotation\.</p>
 And,
 
 
@@ -308,7 +303,7 @@ And,
 
 generates a todo annotation that is not visible in the output\.
 
-&nbsp;
+&nbsp;<p class="todo">this is a todo annotation</p>
 
 
 ###3\.3\. Lists
@@ -667,7 +662,7 @@ This is often either LF or CR\+LF but any string is possible\.
 
 
 ####4\.2\.8\.  outputFile
-<a name="sec:confParam:outputFile"></a>Indicate in which file to export input files\.
+<a name="sec:confParam:outputFile"></a>Indicate in which file to export input files\. This can also be a write stream\.
 
 <dl><dt>Default value
 </dt><dd>Standard output.</dd></dl>
@@ -680,14 +675,21 @@ This is often either LF or CR\+LF but any string is possible\.
 </dt><dd>None</dd></dl>
 
 
-####4\.2\.10\.  separateOutputFiles
+####4\.2\.10\.  scrambledEmailAddresses
+<a name="sec:confParam:scrambledEmailAddresses"></a>Indicate if email addresses should appear scrambled to defeat the stupiest spammers looking for them \(the default\)\. If `false`, email addresses will appear unscrambled\.
+
+<dl><dt>Default value
+</dt><dd>`true`</dd></dl>
+
+
+####4\.2\.11\.  separateOutputFiles
 <a name="sec:confParam:separateOutputFiles"></a>Indicate whether each input file must be exported separately or not\.
 
 <dl><dt>Default value
 </dt><dd>`false`</dd></dl>
 
 
-####4\.2\.11\.  startNumberingAtHeadingLevel
+####4\.2\.12\.  startNumberingAtHeadingLevel
 <a name="sec:confParam:startNumberingAtHeadingLevel"></a>Indicate the level of Pillar heading that is going to be numbered with top level numbers\.
 E\.g\., a `startNumberingAtHeadingLevel` of value `2` indicates that Pillar heading of level 1 are not numbered\.
 
@@ -695,7 +697,7 @@ E\.g\., a `startNumberingAtHeadingLevel` of value `2` indicates that Pillar head
 </dt><dd>`2`</dd></dl>
 
 
-####4\.2\.12\.  stopNumberingAtHeadingLevel
+####4\.2\.13\.  stopNumberingAtHeadingLevel
 <a name="sec:confParam:stopNumberingAtHeadingLevel"></a>Indicate the level of Pillar heading at which Pillar stops numbering\.
 E\.g\., a `stopNumberingAtHeadingLevel` of value `4` indicates that Pillar heading of level 4 and more are not numbered\.
 
@@ -703,21 +705,21 @@ E\.g\., a `stopNumberingAtHeadingLevel` of value `4` indicates that Pillar headi
 </dt><dd>Infinity (never stop numbering).</dd></dl>
 
 
-####4\.2\.13\.  template
+####4\.2\.14\.  template
 <a name="sec:confParam:template"></a>Indicate the overall structure of the exported documents\.
 
 <dl><dt>Default value
 </dt><dd>`'{{{content}}}'` \(output the document as is, without any preamble or postamble\)\.</dd></dl>
 
 
-####4\.2\.14\.  title
+####4\.2\.15\.  title
 <a name="sec:confParam:title"></a>Indicate the main title of the document\.
 
 <dl><dt>Default value
 </dt><dd>`'No title'`</dd></dl>
 
 
-####4\.2\.15\.  verbose
+####4\.2\.16\.  verbose
 <a name="sec:confParam:verbose"></a>Indicate whether Pillar should write a verbose log when exporting\.
 
 <dl><dt>Default value
@@ -762,7 +764,7 @@ Pillar comes with the [Mustache](http://smalltalkhub.com/#!/~NorbertHartl/Mustac
 
 
 
-In this example, we can see the use of `{{{title}}}` and `{{{content}}}` to refer to the title of the document and its actual content \(the one exported from Pillar\)\. You have to put such a template in a dedicated file \(named `chapter.html.template` for example\) and reference this file from the template configuration parameter \(see [4\.2\.13](#sec:confParam:template)\)\.
+In this example, we can see the use of `{{{title}}}` and `{{{content}}}` to refer to the title of the document and its actual content \(the one exported from Pillar\)\. You have to put such a template in a dedicated file \(named `chapter.html.template` for example\) and reference this file from the template configuration parameter \(see [4\.2\.14](#sec:confParam:template)\)\.
 
 
 ##6\.  Command\-line interface
