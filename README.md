@@ -37,10 +37,11 @@ The contributors are:
 
 &nbsp;
 
--  [Lukas Renggli](http://www.lukas-renggli.ch) created [Pier](http://piercms.com) a long time ago from which Pillar's document model, parser and many unit tests are coming;
 -  [Benjamin van Ryseghem](http://benjamin.vanryseghem.com) did everything on the [Mardown](http://daringfireball.net/projects/markdown/) exporter and its [GitHub Markdown](https://help.github.com/articles/github-flavored-markdown) little brother;
 -  [Benjamin van Ryseghem](http://benjamin.vanryseghem.com) also worked on the command\-line interface, the STON configuration interpreter and many other stuff;
+-  Ben Coman made annotated paragraphs work;
 -  [Guillermo Polito](http://playingwithobjects.wordpress.com) fixed a bug;
+-  [Lukas Renggli](http://www.lukas-renggli.ch) created [Pier](http://piercms.com) a long time ago from which Pillar's document model, parser and many unit tests are coming;
 -  [Stéphane Ducasse](http://stephane.ducasse.free.fr) provided continuous feedback from the beginning of the project and got the original idea;
 -  [Damien Cassou](http://damiencassou.seasidehosting.st) for everything else :\-\)\.
 
