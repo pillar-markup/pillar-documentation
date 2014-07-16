@@ -73,6 +73,7 @@ Pillar is used in several projects\. You can have a look at these projects for r
 -  [the Enterprise Pharo book](https://ci.inria.fr/pharo-contribution/job/PharoForTheEnterprise/)
 -  [the Updated Pharo by Example](https://github.com/SquareBracketAssociates/UpdatedPharoByExample)
 -  [the Pharo Laser Game Tutorial](https://github.com/SquareBracketAssociates/PharoLaserGameTutorial)
+-  [the Pharo Web Stack](https://github.com/SquareBracketAssociates/PharoWebStack)
 -  [the Marina CMS](https://github.com/tide-framework/marina)
 -  [the PillarHub open\-access shared blog](http://pillarhub.pharocloud.com)
 -  [the Pier CMS](http://piercms.com)
