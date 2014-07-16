@@ -45,6 +45,9 @@ The contributors are:
 -  [Stéphane Ducasse](http://stephane.ducasse.free.fr) provided continuous feedback from the beginning of the project and got the original idea;
 -  [Damien Cassou](http://damiencassou.seasidehosting.st) for everything else :\-\)\.
 
+<a name="esugsponsoring"></a><figure><img src="figures/esug-logo.jpg" width="20%"></img><figcaption>This project is sponsored by ESUG: http://www.esug.org</figcaption></figure>
+
+
 
 
 ###1\.1\. Editors
