@@ -16,7 +16,7 @@ In this section we give the basic steps to get you started with your first Pilla
 
 ###1\.1\. Installing and exporting your first document
 
-You first need to download Pillar\. For that, I recommend executing [this script](https://raw2.github.com/SquareBracketAssociates/PharoForTheEnterprise-english/master/download.sh) in the base directory\.
+You first need to download Pillar\. For that, I recommend executing [this script](https://github.com/SquareBracketAssociates/PharoForTheEnterprise-english/raw/master/download.sh) in the base directory\.
 
 Then, you can check everything is working fine by creating a `first.pier` file with this content:
 
