@@ -1,8 +1,0 @@
-!! Command-line interface
-@commandLineInterface
-
-In this section we show how to use the ==pillar== command-line interface.
-
-[[[language=bash
-$ ./pillar export --to=latex PharoSound.pier > PharoSound.tex
-]]]
